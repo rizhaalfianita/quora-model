@@ -1,83 +1,85 @@
-import numpy as np 
+import numpy as np
 
 class TFIDF:
-    def __init__(self, dataset):
-        self.dataset = dataset
+    def __init__(self, X):
+        self.dataset = X
         self.vocabulary = self.create_vocabulary()
-        self.document_frequency = self.create_doc_freq()
+        self.document_freq = self.count_document_freq()
+        self.idf = self.count_idf()
 
-    def create_vocabulary(self): # berisi list kata unik yang ada
-        vocab = [] # pakai list karna ga pake key
-        for sentence in self.dataset:
-            for word in sentence.split():
-                if word not in vocab:
-                    vocab.append(word)
-        return vocab
+    def create_vocabulary(self):
+        vocabulary = []
+        for question in self.dataset:
+            for term in question.split():
+                if term not in vocabulary:
+                    vocabulary.append(term)
+        return vocabulary
+    
+    def create_term_count(self, question):
+        term_counts = {}
+        for term in question.split():
+            if term not in term_counts:
+                term_counts[term] = 1
+            else:
+                term_counts[term] += 1
+        return term_counts
+    
+    def count_tf(self, question):
+        question_len = len(question.split())
+        tf = self.create_term_count(question)
 
-    def create_doc_freq(self): # menghitung freq tiap vocab di seluruh kalimat
-        document_frequency = {} # pakai dictionary karna butuh key 'word' dan value 'freq'
-        for term in self.vocabulary:
-            document_frequency[term] = 0 
-            for sentence in self.dataset:
-                for word in sentence.split():
-                    if term == word:
-                        document_frequency[term] += 1
+        for vocab in tf:
+            tf[vocab] /= question_len
+        return tf
+    
+    def count_document_freq(self):
+        document_frequency = {}
+        for vocab in self.vocabulary:
+            document_frequency[vocab] = 0
+            for question in self.dataset:
+                for term in question.split():
+                    if vocab == term:
+                        document_frequency[vocab] += 1
+                        break
         return document_frequency
     
-    def create_word_count(self, sentence): # menghitung freq tiap kata di satu kalimat
-        word_count = {}
-        for word in sentence.split():
-            if word not in word_count:
-                word_count[word] = 1
-            else:
-                word_count[word] += 1
-        return word_count
-    
-    def create_tfidf_dict(self, sentence):
-        sentence_length = len(sentence)
-        dataset_length = len(self.dataset)
-        tfidf_scores = {}
+    def count_idf(self):
+        idf = self.count_document_freq()
+        total_dataset = len(self.dataset)
 
-        for word in sentence.split():
-            if word in self.vocabulary:
-                tf = self.create_word_count(sentence)[word] / sentence_length
-                idf = np.log(dataset_length / self.document_frequency[word])
-                tfidf_scores[word] = tf * idf
-        return tfidf_scores
-    
-    def create_tfidf_list(self, sentence):
-        sentence_length = len(sentence) # jumlah kata di kalimat
-        dataset_length = len(self.dataset) # jumlah kalimat di dataset
-        tfidf_list = [0] * len(self.vocabulary)  # membuat list yang berisi 0 sebanyak vocabulary
-
-        # for word in sentence.split():
-        #     for i in range(len(self.vocabulary)):
-        #         if word == self.vocabulary[i]: # buat nge cek kata itu ada ndak di kamus kata
-        #             tf = self.create_word_count(sentence)[word] / sentence_length
-        #             idf = np.log(dataset_length / self.document_frequency[word])
-        #             tfidf = tf * idf
-        #             tfidf_list[i] = tfidf
-        # return tfidf_list 
-
-        for word in sentence.split():
-            for i, vocab in enumerate(self.vocabulary):
-                if word == vocab: # buat nge cek kata itu ada ndak di kamus kata
-                    tf = self.create_word_count(sentence)[word] / sentence_length
-                    idf = np.log(dataset_length / self.document_frequency[word])
-                    tfidf = tf * idf
-                    tfidf_list[i] = tfidf
-        return tfidf_list 
+        for val in idf:
+            idf[val] = np.log(total_dataset/idf[val])
+        return idf
     
     def transform_tfidf(self, dataset):
-        matrix_tfidf = []
-
-        for sentence in dataset:
-            matrix_tfidf.append(self.create_tfidf_list(sentence))
-        return matrix_tfidf
+        tf_matrix = []
+        
+        for question in dataset:
+            tfidf_list = [0] * len(self.vocabulary)
+            for term in question.split():
+                for i, vocab in enumerate(self.vocabulary):
+                    if term == vocab:
+                        tfidf_list[i] = self.count_tf(question)[term] * self.idf[vocab]
+            tf_matrix.append(tfidf_list)
+        return tf_matrix
     
-    def transform_tfidf_with_feature(self, dataset):
-        tfidf_with_feature = []
+    def transform_single_tfidf(self, question):
+        tfidf_list = [0] * len(self.vocabulary)
+        for term in question.split():
+            for i, vocab in enumerate(self.vocabulary):
+                if term == vocab:
+                    tfidf_list[i] = self.count_tf(question)[term] * self.idf[vocab]
+        return tfidf_list
 
-        for sentence in dataset:
-            tfidf_with_feature.append(self.create_tfidf_dict(sentence))
-        return tfidf_with_feature
+if __name__ == "__main__":
+    questions = ['xi jinping took year kind dirty method kill enemy make dictator china', 'could israeli people ignore kill starve mile away', 'do create mobile app without write code', 'delete quora account use email address create another one']
+    tfidf = TFIDF(questions)
+    print(tfidf.transform_tfidf(['xi jinping took year kind dirty method kill enemy make dictator china', 'could israeli people ignore kill starve mile away', 'do create mobile app without write code', 'delete quora account use email address create another one']))
+    # print(tfidf.idf)
+    #'could israeli people ignore kill starve mile away'
+    # idf = tfidf.document_freq
+    # for val in idf:
+    #     idf[val] = np.log10(len(questions)/idf[val])
+    #     print(idf[val])
+
+

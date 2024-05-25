@@ -23,10 +23,18 @@ def stemming(question_text):
     question_text = [stemmer.stem(word) for word in question_text]
     return question_text
 
+from nltk.stem import WordNetLemmatizer
+def lemmatizing(question_text):
+    lemmatizer = WordNetLemmatizer()
+    question_text = [lemmatizer.lemmatize(word) for word in question_text]
+    return question_text
+
 # Stop words
 from nltk.corpus import stopwords
+custom_stopwords = ['does', 'was', 'would', 'one', 'two', 'three', 'four', 'five', 'six', 'nine', 'ten']
 def stopword_remove(question_text):
     stop_words = stopwords.words('english')
+    stop_words.extend(custom_stopwords)
     question_text = [word for word in question_text if word not in stop_words]
     return question_text
 
@@ -37,4 +45,12 @@ def preprocessing_text_with_stemming(question_text):
     question_text = tokenizing(question_text)
     question_text = stemming(question_text)
     question_text = stopword_remove(question_text)
+    return question_text
+
+def preprocessing_text_with_lemma(question_text):
+    question_text = case_folding(question_text)
+    question_text = cleansing(question_text)
+    question_text = tokenizing(question_text)
+    question_text = stopword_remove(question_text)
+    question_text = lemmatizing(question_text)
     return question_text

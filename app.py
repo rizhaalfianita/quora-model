@@ -16,31 +16,31 @@ def get_dataset():
 
 @app.route('/predict/<text>', methods=['GET'])
 def predict(text):
-    f = open('tfidf.pickle', 'rb')
+    f = open('./experiments/splitting-data/90-10/tfidf_10.pkl', 'rb')
     tfidf = pickle.load(f)
     f.close()
 
-    w = open('mnb.pickle', 'rb')
+    w = open('./experiments/splitting-data/90-10/mnb_10.pkl', 'rb')
     mnb = pickle.load(w)
     w.close()
 
     preprocessed_text = preprocessing_text_with_stemming(text)
-    transformed_input = tfidf.transform_tfidf([' '.join(preprocessed_text)])
-    predicted_class = mnb.predict(transformed_input)[0]
+    transformed_input = tfidf.transform_single_tfidf(' '.join(preprocessed_text))
+    predicted_class = mnb.predict_per_sentence(transformed_input)
     label = "Sincere" if predicted_class == 0 else "Insincere"
 
     tfidf_per_word = getTFIDF(tfidf.vocabulary, transformed_input, preprocessed_text)
     likelihood_per_word_0 = getLikelihood(tfidf.vocabulary, mnb.likelihood, preprocessed_text, 0)
     likelihood_per_word_1 = getLikelihood(tfidf.vocabulary, mnb.likelihood, preprocessed_text, 1)
-    priors = {0 : mnb.prior[0], 1 : mnb.prior[1] }
+    priors = {0 : mnb.priors[0], 1 : mnb.priors[1] }
     likelihoods = {0 : likelihood_per_word_0, 1: likelihood_per_word_1}
     posteriors = {0 : mnb.posteriors[0], 1: mnb.posteriors[1]}
+    print(tfidf_per_word)
     
     result = {
         "input_text": text,
         "predicted_class": label,
         "tfidf_per_word": tfidf_per_word,
-        # "tfidf": f"{transformed_input[0]}",
         "preprocessed_text": preprocessed_text,
         "priors": priors,
         "likelihoods": likelihoods,
@@ -53,7 +53,7 @@ def getTFIDF(vocab, tfidf_score, sentence):
     for i, word in enumerate(sentence):
         for j, val in enumerate(vocab):
             if val == word:
-                tfidf_sentence[i] = tfidf_score[0][j]
+                tfidf_sentence[i] = tfidf_score[j]
     return tfidf_sentence
 
 def getLikelihood(vocab, likelihood, sentence, label):
@@ -66,4 +66,3 @@ def getLikelihood(vocab, likelihood, sentence, label):
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000)
-    predict("aselole")

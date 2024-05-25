@@ -24,13 +24,13 @@ class MultinomialNB:
             self.prior[label] = self.class_counts[label] / total_sentences
         
         # Menghitung frekuensi masing-masing feature di setiap kelas 
-        # CLEAR!, 6228 feature
+        # CLEAR!
         for label in classes:
             feature_counts = []
             for tfidf_vector, tfidf_class in zip(X, y):
                 if tfidf_class == label:
                     feature_counts.append(tfidf_vector)
-            self.class_feature_counts[label] = np.sum(feature_counts, axis=0)
+            self.class_feature_counts[label] = np.sum(feature_counts, axis=0) # axis = 0, itu vertical
             
         # Menghitung total kemunculan fitur di setiap kelas
         for label in classes:
@@ -40,9 +40,9 @@ class MultinomialNB:
                 
         # Menghitung likelihood
         for label in classes:
-            class_feature_counts = [result + self.alpha for result in self.class_feature_counts[label]]
-            total_feature_counts = self.total_feature_counts[label] + num_features * self.alpha
-            self.likelihood[label] = class_feature_counts / total_feature_counts
+            class_feature_counts = [result + self.alpha for result in self.class_feature_counts[label]] # hasilnya array
+            total_feature_counts = self.total_feature_counts[label]
+            self.likelihood[label] = class_feature_counts / (total_feature_counts + self.alpha * num_features)
     
     # def predict(self, X):
     #     predictions = []
@@ -71,3 +71,37 @@ class MultinomialNB:
             predicted_label = max(posteriors, key=posteriors.get)
             predictions.append(predicted_label)
         return predictions
+    
+    def score(self, X, y):
+        # Make predictions
+        y_pred = self.predict(X)
+        
+        # Calculate the number of correct predictions
+        correct_predictions = 0
+        for pred, true in zip(y_pred, y):
+            if pred == true:
+                correct_predictions += 1
+        
+        # Calculate the total number of predictions
+        total_predictions = len(y)
+        
+        # Calculate accuracy
+        accuracy = correct_predictions / total_predictions
+        return accuracy
+
+    def get_params(self, deep=True):
+        return {'alpha': self.alpha}
+
+if __name__ == "__main__":
+    from TFIDFVectorizer import TFIDF
+    questions = ['xi jinping took year kind dirty method kill enemy make dictator china', 'could israeli people ignore kill starve mile away', 'do create mobile app without write code', 'delete quora account use email address create another one']
+    tfidf = TFIDF(questions)
+    X = tfidf.transform_tfidf(['xi jinping took year kind dirty method kill enemy make dictator china', 'could israeli people ignore kill starve mile away', 'do create mobile app without write code', 'delete quora account use email address create another one'])
+    # print(tfidf.idf)
+    #'could israeli people ignore kill starve mile away'
+    # idf = tfidf.document_freq
+    # for val in idf:
+    #     idf[val] = np.log10(len(questions)/idf[val])
+    #     print(idf[val])
+    mnb = MultinomialNB()
+    mnb.fit()
