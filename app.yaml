@@ -1,0 +1,7 @@
+runtime: python310  # Or the version of Python you are using
+service: rizha
+entrypoint: gunicorn -b :8080 app:app
+
+handlers:
+- url: /.*
+  script: auto
