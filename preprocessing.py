@@ -17,6 +17,14 @@ def tokenizing(question_text):
     return question_text
 
 # Stemmming
+import nltk
+from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer, WordNetLemmatizer
+
+# Download required NLTK resources
+nltk.download('stopwords')
+nltk.download('wordnet')
+
 from nltk.stem import PorterStemmer
 def stemming(question_text):
     stemmer = PorterStemmer()
