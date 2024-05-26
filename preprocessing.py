@@ -25,20 +25,17 @@ from nltk.stem import PorterStemmer, WordNetLemmatizer
 nltk.download('stopwords')
 nltk.download('wordnet')
 
-from nltk.stem import PorterStemmer
 def stemming(question_text):
     stemmer = PorterStemmer()
     question_text = [stemmer.stem(word) for word in question_text]
     return question_text
 
-from nltk.stem import WordNetLemmatizer
 def lemmatizing(question_text):
     lemmatizer = WordNetLemmatizer()
     question_text = [lemmatizer.lemmatize(word) for word in question_text]
     return question_text
 
 # Stop words
-from nltk.corpus import stopwords
 custom_stopwords = ['does', 'was', 'would', 'one', 'two', 'three', 'four', 'five', 'six', 'nine', 'ten']
 def stopword_remove(question_text):
     stop_words = stopwords.words('english')
