@@ -80,8 +80,8 @@ def preprocessing_text_with_lemma(question_text):
     return question_text
 
 
-if __name__ == "__main__":
-    from TFIDFVectorizer import TFIDF
-    questions = '@yakubOObs think idk he deactivated because his notifications are aids after tesco wrecked him lol'
-    print(preprocessing_text_with_lemma(questions))
+# if __name__ == "__main__":
+#     from TFIDFVectorizer import TFIDF
+#     questions = '@yakubOObs think idk he deactivated because his notifications are aids after tesco wrecked him lol'
+#     print(preprocessing_text_with_lemma(questions))
  
