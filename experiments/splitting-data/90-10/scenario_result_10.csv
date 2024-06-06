@@ -1,401 +1,401 @@
-,Actual,Prediction,TP,TN,FP,FN
-0,Sincere,Insincere,0,0,0,1
-1,Sincere,Sincere,1,0,0,0
-2,Sincere,Sincere,1,0,0,0
-3,Sincere,Sincere,1,0,0,0
-4,Insincere,Insincere,0,1,0,0
-5,Sincere,Sincere,1,0,0,0
-6,Sincere,Insincere,0,0,0,1
-7,Sincere,Insincere,0,0,0,1
-8,Sincere,Insincere,0,0,0,1
-9,Insincere,Insincere,0,1,0,0
-10,Insincere,Insincere,0,1,0,0
-11,Insincere,Insincere,0,1,0,0
-12,Sincere,Insincere,0,0,0,1
-13,Sincere,Sincere,1,0,0,0
-14,Sincere,Sincere,1,0,0,0
-15,Insincere,Insincere,0,1,0,0
-16,Sincere,Sincere,1,0,0,0
-17,Sincere,Sincere,1,0,0,0
-18,Sincere,Insincere,0,0,0,1
-19,Sincere,Insincere,0,0,0,1
-20,Sincere,Sincere,1,0,0,0
-21,Insincere,Insincere,0,1,0,0
-22,Insincere,Insincere,0,1,0,0
-23,Insincere,Insincere,0,1,0,0
-24,Insincere,Insincere,0,1,0,0
-25,Insincere,Insincere,0,1,0,0
-26,Insincere,Insincere,0,1,0,0
-27,Sincere,Insincere,0,0,0,1
-28,Sincere,Insincere,0,0,0,1
-29,Insincere,Insincere,0,1,0,0
-30,Insincere,Insincere,0,1,0,0
-31,Insincere,Insincere,0,1,0,0
-32,Sincere,Sincere,1,0,0,0
-33,Sincere,Sincere,1,0,0,0
-34,Insincere,Insincere,0,1,0,0
-35,Sincere,Insincere,0,0,0,1
-36,Insincere,Insincere,0,1,0,0
-37,Insincere,Insincere,0,1,0,0
-38,Sincere,Insincere,0,0,0,1
-39,Sincere,Insincere,0,0,0,1
-40,Insincere,Insincere,0,1,0,0
-41,Insincere,Insincere,0,1,0,0
-42,Insincere,Insincere,0,1,0,0
-43,Sincere,Insincere,0,0,0,1
-44,Insincere,Insincere,0,1,0,0
-45,Sincere,Insincere,0,0,0,1
-46,Insincere,Insincere,0,1,0,0
-47,Sincere,Insincere,0,0,0,1
-48,Sincere,Sincere,1,0,0,0
-49,Sincere,Sincere,1,0,0,0
-50,Sincere,Sincere,1,0,0,0
-51,Sincere,Sincere,1,0,0,0
-52,Sincere,Sincere,1,0,0,0
-53,Sincere,Sincere,1,0,0,0
-54,Sincere,Sincere,1,0,0,0
-55,Insincere,Insincere,0,1,0,0
-56,Insincere,Insincere,0,1,0,0
-57,Insincere,Insincere,0,1,0,0
-58,Sincere,Sincere,1,0,0,0
-59,Insincere,Insincere,0,1,0,0
-60,Insincere,Insincere,0,1,0,0
-61,Insincere,Insincere,0,1,0,0
-62,Insincere,Insincere,0,1,0,0
-63,Insincere,Insincere,0,1,0,0
-64,Sincere,Insincere,0,0,0,1
-65,Insincere,Insincere,0,1,0,0
-66,Sincere,Insincere,0,0,0,1
-67,Insincere,Insincere,0,1,0,0
-68,Insincere,Sincere,0,0,1,0
-69,Insincere,Insincere,0,1,0,0
-70,Insincere,Insincere,0,1,0,0
-71,Sincere,Insincere,0,0,0,1
-72,Sincere,Sincere,1,0,0,0
-73,Sincere,Sincere,1,0,0,0
-74,Sincere,Sincere,1,0,0,0
-75,Insincere,Insincere,0,1,0,0
-76,Insincere,Sincere,0,0,1,0
-77,Sincere,Insincere,0,0,0,1
-78,Sincere,Sincere,1,0,0,0
-79,Sincere,Sincere,1,0,0,0
-80,Insincere,Insincere,0,1,0,0
-81,Insincere,Insincere,0,1,0,0
-82,Sincere,Sincere,1,0,0,0
-83,Insincere,Insincere,0,1,0,0
-84,Insincere,Insincere,0,1,0,0
-85,Sincere,Sincere,1,0,0,0
-86,Sincere,Sincere,1,0,0,0
-87,Sincere,Sincere,1,0,0,0
-88,Insincere,Insincere,0,1,0,0
-89,Sincere,Sincere,1,0,0,0
-90,Sincere,Sincere,1,0,0,0
-91,Sincere,Sincere,1,0,0,0
-92,Insincere,Insincere,0,1,0,0
-93,Sincere,Sincere,1,0,0,0
-94,Sincere,Sincere,1,0,0,0
-95,Sincere,Insincere,0,0,0,1
-96,Insincere,Insincere,0,1,0,0
-97,Insincere,Insincere,0,1,0,0
-98,Sincere,Sincere,1,0,0,0
-99,Sincere,Insincere,0,0,0,1
-100,Insincere,Insincere,0,1,0,0
-101,Insincere,Insincere,0,1,0,0
-102,Sincere,Insincere,0,0,0,1
-103,Insincere,Insincere,0,1,0,0
-104,Insincere,Insincere,0,1,0,0
-105,Insincere,Insincere,0,1,0,0
-106,Insincere,Insincere,0,1,0,0
-107,Sincere,Sincere,1,0,0,0
-108,Sincere,Sincere,1,0,0,0
-109,Insincere,Insincere,0,1,0,0
-110,Insincere,Insincere,0,1,0,0
-111,Sincere,Sincere,1,0,0,0
-112,Sincere,Sincere,1,0,0,0
-113,Sincere,Sincere,1,0,0,0
-114,Sincere,Sincere,1,0,0,0
-115,Sincere,Sincere,1,0,0,0
-116,Sincere,Sincere,1,0,0,0
-117,Sincere,Sincere,1,0,0,0
-118,Insincere,Insincere,0,1,0,0
-119,Insincere,Insincere,0,1,0,0
-120,Sincere,Sincere,1,0,0,0
-121,Sincere,Sincere,1,0,0,0
-122,Sincere,Sincere,1,0,0,0
-123,Insincere,Insincere,0,1,0,0
-124,Insincere,Insincere,0,1,0,0
-125,Sincere,Sincere,1,0,0,0
-126,Insincere,Insincere,0,1,0,0
-127,Sincere,Sincere,1,0,0,0
-128,Sincere,Sincere,1,0,0,0
-129,Insincere,Insincere,0,1,0,0
-130,Insincere,Insincere,0,1,0,0
-131,Insincere,Insincere,0,1,0,0
-132,Sincere,Insincere,0,0,0,1
-133,Insincere,Insincere,0,1,0,0
-134,Sincere,Sincere,1,0,0,0
-135,Insincere,Insincere,0,1,0,0
-136,Sincere,Sincere,1,0,0,0
-137,Sincere,Sincere,1,0,0,0
-138,Sincere,Sincere,1,0,0,0
-139,Sincere,Sincere,1,0,0,0
-140,Insincere,Insincere,0,1,0,0
-141,Sincere,Sincere,1,0,0,0
-142,Insincere,Insincere,0,1,0,0
-143,Sincere,Sincere,1,0,0,0
-144,Insincere,Insincere,0,1,0,0
-145,Insincere,Insincere,0,1,0,0
-146,Insincere,Insincere,0,1,0,0
-147,Sincere,Sincere,1,0,0,0
-148,Insincere,Insincere,0,1,0,0
-149,Insincere,Insincere,0,1,0,0
-150,Sincere,Sincere,1,0,0,0
-151,Insincere,Sincere,0,0,1,0
-152,Sincere,Insincere,0,0,0,1
-153,Insincere,Insincere,0,1,0,0
-154,Insincere,Insincere,0,1,0,0
-155,Sincere,Sincere,1,0,0,0
-156,Sincere,Sincere,1,0,0,0
-157,Sincere,Insincere,0,0,0,1
-158,Sincere,Sincere,1,0,0,0
-159,Insincere,Insincere,0,1,0,0
-160,Sincere,Insincere,0,0,0,1
-161,Insincere,Sincere,0,0,1,0
-162,Sincere,Sincere,1,0,0,0
-163,Sincere,Sincere,1,0,0,0
-164,Sincere,Sincere,1,0,0,0
-165,Insincere,Insincere,0,1,0,0
-166,Insincere,Insincere,0,1,0,0
-167,Insincere,Insincere,0,1,0,0
-168,Sincere,Insincere,0,0,0,1
-169,Insincere,Insincere,0,1,0,0
-170,Insincere,Insincere,0,1,0,0
-171,Insincere,Insincere,0,1,0,0
-172,Sincere,Sincere,1,0,0,0
-173,Sincere,Sincere,1,0,0,0
-174,Insincere,Insincere,0,1,0,0
-175,Insincere,Insincere,0,1,0,0
-176,Sincere,Insincere,0,0,0,1
-177,Sincere,Sincere,1,0,0,0
-178,Insincere,Insincere,0,1,0,0
-179,Sincere,Sincere,1,0,0,0
-180,Insincere,Insincere,0,1,0,0
-181,Insincere,Insincere,0,1,0,0
-182,Insincere,Insincere,0,1,0,0
-183,Sincere,Insincere,0,0,0,1
-184,Insincere,Insincere,0,1,0,0
-185,Sincere,Sincere,1,0,0,0
-186,Insincere,Insincere,0,1,0,0
-187,Sincere,Insincere,0,0,0,1
-188,Insincere,Insincere,0,1,0,0
-189,Sincere,Sincere,1,0,0,0
-190,Sincere,Sincere,1,0,0,0
-191,Insincere,Insincere,0,1,0,0
-192,Insincere,Insincere,0,1,0,0
-193,Sincere,Insincere,0,0,0,1
-194,Insincere,Insincere,0,1,0,0
-195,Insincere,Insincere,0,1,0,0
-196,Insincere,Insincere,0,1,0,0
-197,Sincere,Sincere,1,0,0,0
-198,Sincere,Sincere,1,0,0,0
-199,Insincere,Insincere,0,1,0,0
-200,Sincere,Sincere,1,0,0,0
-201,Sincere,Insincere,0,0,0,1
-202,Sincere,Sincere,1,0,0,0
-203,Sincere,Sincere,1,0,0,0
-204,Sincere,Sincere,1,0,0,0
-205,Sincere,Sincere,1,0,0,0
-206,Insincere,Insincere,0,1,0,0
-207,Insincere,Insincere,0,1,0,0
-208,Sincere,Insincere,0,0,0,1
-209,Sincere,Sincere,1,0,0,0
-210,Sincere,Sincere,1,0,0,0
-211,Insincere,Sincere,0,0,1,0
-212,Sincere,Sincere,1,0,0,0
-213,Sincere,Sincere,1,0,0,0
-214,Sincere,Sincere,1,0,0,0
-215,Sincere,Insincere,0,0,0,1
-216,Insincere,Insincere,0,1,0,0
-217,Insincere,Insincere,0,1,0,0
-218,Insincere,Insincere,0,1,0,0
-219,Insincere,Insincere,0,1,0,0
-220,Insincere,Insincere,0,1,0,0
-221,Sincere,Sincere,1,0,0,0
-222,Insincere,Insincere,0,1,0,0
-223,Insincere,Insincere,0,1,0,0
-224,Sincere,Sincere,1,0,0,0
-225,Sincere,Sincere,1,0,0,0
-226,Insincere,Insincere,0,1,0,0
-227,Sincere,Sincere,1,0,0,0
-228,Sincere,Sincere,1,0,0,0
-229,Insincere,Insincere,0,1,0,0
-230,Insincere,Insincere,0,1,0,0
-231,Sincere,Sincere,1,0,0,0
-232,Sincere,Sincere,1,0,0,0
-233,Sincere,Insincere,0,0,0,1
-234,Insincere,Insincere,0,1,0,0
-235,Sincere,Sincere,1,0,0,0
-236,Insincere,Insincere,0,1,0,0
-237,Insincere,Insincere,0,1,0,0
-238,Insincere,Insincere,0,1,0,0
-239,Sincere,Sincere,1,0,0,0
-240,Insincere,Insincere,0,1,0,0
-241,Sincere,Sincere,1,0,0,0
-242,Sincere,Insincere,0,0,0,1
-243,Insincere,Insincere,0,1,0,0
-244,Insincere,Insincere,0,1,0,0
-245,Sincere,Insincere,0,0,0,1
-246,Sincere,Sincere,1,0,0,0
-247,Insincere,Insincere,0,1,0,0
-248,Insincere,Insincere,0,1,0,0
-249,Insincere,Insincere,0,1,0,0
-250,Sincere,Sincere,1,0,0,0
-251,Insincere,Insincere,0,1,0,0
-252,Sincere,Insincere,0,0,0,1
-253,Insincere,Insincere,0,1,0,0
-254,Insincere,Insincere,0,1,0,0
-255,Sincere,Sincere,1,0,0,0
-256,Sincere,Sincere,1,0,0,0
-257,Insincere,Sincere,0,0,1,0
-258,Sincere,Sincere,1,0,0,0
-259,Insincere,Insincere,0,1,0,0
-260,Sincere,Sincere,1,0,0,0
-261,Insincere,Insincere,0,1,0,0
-262,Sincere,Insincere,0,0,0,1
-263,Insincere,Insincere,0,1,0,0
-264,Sincere,Sincere,1,0,0,0
-265,Insincere,Insincere,0,1,0,0
-266,Sincere,Sincere,1,0,0,0
-267,Sincere,Sincere,1,0,0,0
-268,Insincere,Insincere,0,1,0,0
-269,Sincere,Sincere,1,0,0,0
-270,Sincere,Insincere,0,0,0,1
-271,Sincere,Sincere,1,0,0,0
-272,Sincere,Sincere,1,0,0,0
-273,Insincere,Insincere,0,1,0,0
-274,Sincere,Sincere,1,0,0,0
-275,Sincere,Sincere,1,0,0,0
-276,Insincere,Insincere,0,1,0,0
-277,Sincere,Sincere,1,0,0,0
-278,Insincere,Insincere,0,1,0,0
-279,Sincere,Sincere,1,0,0,0
-280,Insincere,Insincere,0,1,0,0
-281,Sincere,Sincere,1,0,0,0
-282,Insincere,Insincere,0,1,0,0
-283,Insincere,Insincere,0,1,0,0
-284,Sincere,Sincere,1,0,0,0
-285,Insincere,Insincere,0,1,0,0
-286,Insincere,Insincere,0,1,0,0
-287,Insincere,Insincere,0,1,0,0
-288,Insincere,Insincere,0,1,0,0
-289,Insincere,Insincere,0,1,0,0
-290,Insincere,Insincere,0,1,0,0
-291,Sincere,Insincere,0,0,0,1
-292,Insincere,Insincere,0,1,0,0
-293,Insincere,Insincere,0,1,0,0
-294,Sincere,Insincere,0,0,0,1
-295,Sincere,Sincere,1,0,0,0
-296,Sincere,Sincere,1,0,0,0
-297,Insincere,Insincere,0,1,0,0
-298,Sincere,Sincere,1,0,0,0
-299,Sincere,Sincere,1,0,0,0
-300,Insincere,Insincere,0,1,0,0
-301,Sincere,Insincere,0,0,0,1
-302,Insincere,Insincere,0,1,0,0
-303,Sincere,Sincere,1,0,0,0
-304,Insincere,Insincere,0,1,0,0
-305,Insincere,Insincere,0,1,0,0
-306,Sincere,Sincere,1,0,0,0
-307,Sincere,Sincere,1,0,0,0
-308,Sincere,Sincere,1,0,0,0
-309,Sincere,Sincere,1,0,0,0
-310,Sincere,Insincere,0,0,0,1
-311,Sincere,Sincere,1,0,0,0
-312,Sincere,Sincere,1,0,0,0
-313,Sincere,Sincere,1,0,0,0
-314,Insincere,Insincere,0,1,0,0
-315,Insincere,Insincere,0,1,0,0
-316,Sincere,Sincere,1,0,0,0
-317,Insincere,Insincere,0,1,0,0
-318,Sincere,Sincere,1,0,0,0
-319,Sincere,Sincere,1,0,0,0
-320,Insincere,Insincere,0,1,0,0
-321,Sincere,Sincere,1,0,0,0
-322,Insincere,Insincere,0,1,0,0
-323,Sincere,Insincere,0,0,0,1
-324,Sincere,Sincere,1,0,0,0
-325,Sincere,Insincere,0,0,0,1
-326,Insincere,Insincere,0,1,0,0
-327,Sincere,Sincere,1,0,0,0
-328,Insincere,Sincere,0,0,1,0
-329,Sincere,Sincere,1,0,0,0
-330,Sincere,Sincere,1,0,0,0
-331,Insincere,Insincere,0,1,0,0
-332,Insincere,Insincere,0,1,0,0
-333,Sincere,Sincere,1,0,0,0
-334,Insincere,Insincere,0,1,0,0
-335,Insincere,Insincere,0,1,0,0
-336,Sincere,Sincere,1,0,0,0
-337,Insincere,Sincere,0,0,1,0
-338,Sincere,Sincere,1,0,0,0
-339,Insincere,Insincere,0,1,0,0
-340,Sincere,Insincere,0,0,0,1
-341,Insincere,Insincere,0,1,0,0
-342,Insincere,Sincere,0,0,1,0
-343,Sincere,Insincere,0,0,0,1
-344,Insincere,Insincere,0,1,0,0
-345,Sincere,Insincere,0,0,0,1
-346,Insincere,Insincere,0,1,0,0
-347,Sincere,Sincere,1,0,0,0
-348,Insincere,Insincere,0,1,0,0
-349,Sincere,Insincere,0,0,0,1
-350,Sincere,Insincere,0,0,0,1
-351,Insincere,Insincere,0,1,0,0
-352,Sincere,Insincere,0,0,0,1
-353,Sincere,Sincere,1,0,0,0
-354,Insincere,Insincere,0,1,0,0
-355,Insincere,Insincere,0,1,0,0
-356,Sincere,Sincere,1,0,0,0
-357,Insincere,Insincere,0,1,0,0
-358,Insincere,Insincere,0,1,0,0
-359,Insincere,Insincere,0,1,0,0
-360,Insincere,Insincere,0,1,0,0
-361,Sincere,Insincere,0,0,0,1
-362,Sincere,Sincere,1,0,0,0
-363,Sincere,Insincere,0,0,0,1
-364,Insincere,Insincere,0,1,0,0
-365,Insincere,Insincere,0,1,0,0
-366,Sincere,Sincere,1,0,0,0
-367,Sincere,Sincere,1,0,0,0
-368,Insincere,Insincere,0,1,0,0
-369,Sincere,Sincere,1,0,0,0
-370,Insincere,Insincere,0,1,0,0
-371,Insincere,Insincere,0,1,0,0
-372,Insincere,Insincere,0,1,0,0
-373,Sincere,Sincere,1,0,0,0
-374,Sincere,Sincere,1,0,0,0
-375,Sincere,Insincere,0,0,0,1
-376,Sincere,Sincere,1,0,0,0
-377,Sincere,Sincere,1,0,0,0
-378,Insincere,Insincere,0,1,0,0
-379,Insincere,Sincere,0,0,1,0
-380,Sincere,Sincere,1,0,0,0
-381,Sincere,Sincere,1,0,0,0
-382,Sincere,Sincere,1,0,0,0
-383,Insincere,Insincere,0,1,0,0
-384,Sincere,Sincere,1,0,0,0
-385,Sincere,Insincere,0,0,0,1
-386,Sincere,Sincere,1,0,0,0
-387,Sincere,Insincere,0,0,0,1
-388,Sincere,Sincere,1,0,0,0
-389,Sincere,Sincere,1,0,0,0
-390,Sincere,Sincere,1,0,0,0
-391,Sincere,Sincere,1,0,0,0
-392,Insincere,Insincere,0,1,0,0
-393,Insincere,Insincere,0,1,0,0
-394,Sincere,Sincere,1,0,0,0
-395,Insincere,Sincere,0,0,1,0
-396,Sincere,Sincere,1,0,0,0
-397,Insincere,Insincere,0,1,0,0
-398,Sincere,Sincere,1,0,0,0
-399,Sincere,Sincere,1,0,0,0
+,Question,Actual,Prediction,TP,TN,FP,FN
+1544,make donald trump greatest president history,Sincere,Insincere,0,0,1,0
+125,different form electricity used,Sincere,Sincere,0,1,0,0
+376,area bounded curve x line x axis point intersection point rotated x axis formula volume,Sincere,Sincere,0,1,0,0
+1141,kotlin language similar java,Sincere,Sincere,0,1,0,0
+2734,u president hillary clinton laughed puerto rico said came saw died,Insincere,Insincere,1,0,0,0
+792,thinking different others,Sincere,Sincere,0,1,0,0
+1909,remainder divided,Sincere,Insincere,0,0,1,0
+502,feel like replaced,Sincere,Insincere,0,0,1,0
+1062,get touch girl seen year,Sincere,Insincere,0,0,1,0
+2450,fuck kid spend time jail,Insincere,Insincere,1,0,0,0
+2965,liberal cry baby,Insincere,Insincere,1,0,0,0
+2541,beautiful middle east iranian levantine arab,Insincere,Insincere,1,0,0,0
+495,case human specie selection pressure weaker today,Sincere,Insincere,0,0,1,0
+730,possible make movie song offend people coerce political change,Sincere,Sincere,0,1,0,0
+1833,determinant matrix basically listing permutation coefficient conserving order term system,Sincere,Sincere,0,1,0,0
+3179,rapist europe muslim,Insincere,Insincere,1,0,0,0
+1867,bit compare nit trichy b tech mech,Sincere,Sincere,0,1,0,0
+308,could thing gift guy husband meeting arranged parent first meeting talking since month,Sincere,Sincere,0,1,0,0
+535,initiation ritual latin king gang,Sincere,Insincere,0,0,1,0
+1349,people really bad teeth bad taking care teeth,Sincere,Insincere,0,0,1,0
+1925,kagome kiyoko reincarnation different people,Sincere,Sincere,0,1,0,0
+2962,india still considered secular prime minister fanatic hindu report hindu extremist party r,Insincere,Insincere,1,0,0,0
+2453,true amit shah ordered kill anyone writes negative case judge loya,Insincere,Insincere,1,0,0,0
+3836,jew average spatial iq,Insincere,Insincere,1,0,0,0
+2175,liberal realize region stricter gun control often higher level gun violence google,Insincere,Insincere,1,0,0,0
+2302,evangelical christian like pedophile pedophile member republican party,Insincere,Insincere,1,0,0,0
+3207,beat homeless people fun psychopath,Insincere,Insincere,1,0,0,0
+244,see stored icloud,Sincere,Insincere,0,0,1,0
+1912,india save pakistan china,Sincere,Insincere,0,0,1,0
+2969,italian italy hate black american italian refer derogatory term italian see black american le american get angry hear black american speaking english,Insincere,Insincere,1,0,0,0
+3991,many indian girl lose virginity marriage,Insincere,Insincere,1,0,0,0
+2386,chinese hate american built entire country city,Insincere,Insincere,1,0,0,0
+1970,best place value money kolkata buying ceramic pot,Sincere,Sincere,0,1,0,0
+529,following polymer contain glucose unit,Sincere,Sincere,0,1,0,0
+2905,ctmu critic imbecile crackpot know nothing,Insincere,Insincere,1,0,0,0
+1359,much custom come import pair shoe detroit costed total,Sincere,Insincere,0,0,1,0
+3700,french people resentful towards brit vice versa,Insincere,Insincere,1,0,0,0
+2821,america punish southern conservative opposition proper education scientific advancement,Insincere,Insincere,1,0,0,0
+750,kind clothes like guy,Sincere,Insincere,0,0,1,0
+625,stop arrow key scrolling,Sincere,Insincere,0,0,1,0
+2997,love turn people idiot please give love like love love perfect b know sugar coating love try hide,Insincere,Insincere,1,0,0,0
+3886,asian people travel world like foreigner,Insincere,Insincere,1,0,0,0
+3287,western technology democracy work shaitan,Insincere,Insincere,1,0,0,0
+1807,child ever told something scared,Sincere,Insincere,0,0,1,0
+3030,grab aunty boob p,Insincere,Insincere,1,0,0,0
+1603,ever wrongfully accused rape sexual harassment,Sincere,Insincere,0,0,1,0
+3798,many black america,Insincere,Insincere,1,0,0,0
+1286,outside right finding peace star,Sincere,Insincere,0,0,1,0
+1618,big deal tech giant run problem live demo,Sincere,Sincere,0,1,0,0
+1934,perlite exist eutectoid composition c even hypoeutectoid range,Sincere,Sincere,0,1,0,0
+1401,mean baby fast heartbeat,Sincere,Sincere,0,1,0,0
+1309,mark required get ramk arround electrical branch,Sincere,Sincere,0,1,0,0
+1505,businessman select financial intermediary prior business transaction,Sincere,Sincere,0,1,0,0
+268,manufacturing process airwalk snowboard,Sincere,Sincere,0,1,0,0
+817,much money need live exchange student bergen norway,Sincere,Sincere,0,1,0,0
+2608,indian see today fake hindu ex muslim ancestry hence explaining modern indian phenomenal,Insincere,Insincere,1,0,0,0
+2591,new zealand combat unit think work russian america took,Insincere,Insincere,1,0,0,0
+2232,boy use girl sex,Insincere,Insincere,1,0,0,0
+1887,meet cold,Sincere,Sincere,0,1,0,0
+3835,people constantly trying break street date video game seem incredibly selfish childish,Insincere,Insincere,1,0,0,0
+2231,chamarendar gay,Insincere,Insincere,1,0,0,0
+2381,briton met russia speak ugly abracadabra call advanced language,Insincere,Insincere,1,0,0,0
+2723,make sex year old say virginia,Insincere,Insincere,1,0,0,0
+3837,american trade canada australia northern neighbor possible,Insincere,Insincere,1,0,0,0
+1503,find qatari kuwaiti sponsor startup iran,Sincere,Insincere,0,0,1,0
+2376,trump get fired excessive day golf excessive expense first year president thier entire term get fired bos american citizen,Insincere,Insincere,1,0,0,0
+1121,true american men hate woman,Sincere,Insincere,0,0,1,0
+3443,white people obsessed big lip black people white proud thin lip,Insincere,Insincere,1,0,0,0
+3256,think sword art online movie,Insincere,Sincere,0,0,0,1
+3074,u born muslim generally successful academically career uk born british muslim uk muslim backward today,Insincere,Insincere,1,0,0,0
+3705,feel bad black woman,Insincere,Insincere,1,0,0,0
+1894,international road pas north east india,Sincere,Insincere,0,0,1,0
+1451,form government k currently many year system,Sincere,Sincere,0,1,0,0
+136,college branch get score jee advanced,Sincere,Sincere,0,1,0,0
+1796,salary package oracle india pvt limited hyderabad,Sincere,Sincere,0,1,0,0
+2301,vagina look like,Insincere,Insincere,1,0,0,0
+2693,money making business idea start year,Insincere,Sincere,0,0,0,1
+592,odds nato state member ever leave alliance,Sincere,Insincere,0,0,1,0
+841,time flight depth sensor light house light house use,Sincere,Sincere,0,1,0,0
+1853,carrier strike group obsolete,Sincere,Sincere,0,1,0,0
+3677,chinese nationalism disgust,Insincere,Insincere,1,0,0,0
+3192,bill clinton conscience,Insincere,Insincere,1,0,0,0
+413,conduct user research accessibility differently,Sincere,Sincere,0,1,0,0
+2519,risk rubbing penis beehive minute every sunday,Insincere,Insincere,1,0,0,0
+3059,brahmin stone age idea hampering growth india socially,Insincere,Insincere,1,0,0,0
+70,time need reach nift campus orientation programme,Sincere,Sincere,0,1,0,0
+426,jio launch postpaid plan jammu,Sincere,Sincere,0,1,0,0
+632,flying airline often revert navy training treat passenger carrier landing,Sincere,Sincere,0,1,0,0
+2700,sane person investigating weapon law look nebulous statistic like mass shooting rather homicide rate something similar,Insincere,Insincere,1,0,0,0
+1937,motivated fit,Sincere,Sincere,0,1,0,0
+798,joker v deadpool assault arkham animated movie great storyline supervillains,Sincere,Sincere,0,1,0,0
+12,difference casio ae w casio ae w b watch,Sincere,Sincere,0,1,0,0
+3117,somebody voting donald trump like hilary clinton say prefer bigot,Insincere,Insincere,1,0,0,0
+562,material read improve reading habit cat va rc select passage attempt mock,Sincere,Sincere,0,1,0,0
+1823,difference study exam study knowledge chartered accountancy,Sincere,Sincere,0,1,0,0
+1432,penguin protect seal,Sincere,Insincere,0,0,1,0
+3890,heterosexual men enjoy wearing panty tights,Insincere,Insincere,1,0,0,0
+3101,education feminist issue west subject woman dominating men,Insincere,Insincere,1,0,0,0
+927,twin flame feel exact way,Sincere,Sincere,0,1,0,0
+1517,need form secret organization take anti national india,Sincere,Insincere,0,0,1,0
+2464,trump voter want russia control united state,Insincere,Insincere,1,0,0,0
+3245,obama executed treason,Insincere,Insincere,1,0,0,0
+320,unauthorized transaction probable identity theft,Sincere,Insincere,0,0,1,0
+2254,country need hitler,Insincere,Insincere,1,0,0,0
+3693,girl like soft hard penis,Insincere,Insincere,1,0,0,0
+2218,feminist talk men issue legitimately concerned virtue signaling,Insincere,Insincere,1,0,0,0
+3182,worse donald trump voter republican enabled,Insincere,Insincere,1,0,0,0
+1944,tip write summary upgrade army discharge brief legal guide,Sincere,Sincere,0,1,0,0
+1730,improve fitness eating egg,Sincere,Sincere,0,1,0,0
+3339,u accept poor uneducated illegal immigrant like dreamer,Insincere,Insincere,1,0,0,0
+2517,sex younger female cousin,Insincere,Insincere,1,0,0,0
+1591,difference form form part,Sincere,Sincere,0,1,0,0
+455,important birthright title land money power,Sincere,Sincere,0,1,0,0
+1880,benefit rising star program,Sincere,Sincere,0,1,0,0
+1181,laptop paytm cheap,Sincere,Sincere,0,1,0,0
+1568,many programmer workforce actually get certification,Sincere,Sincere,0,1,0,0
+766,right time start studying gmat,Sincere,Sincere,0,1,0,0
+40,character changed end book chasing redbird,Sincere,Sincere,0,1,0,0
+2610,u military induce war resource rich nation,Insincere,Insincere,1,0,0,0
+2807,canada bad woman compared pakistan saudi arabia,Insincere,Insincere,1,0,0,0
+842,best way bring awareness distress,Sincere,Sincere,0,1,0,0
+1384,learning curve marketo compare learning curve hubspot,Sincere,Sincere,0,1,0,0
+1009,chemical structure calcium nitrate,Sincere,Sincere,0,1,0,0
+3595,bannon testify trump since lost standing britebart radio gig,Insincere,Insincere,1,0,0,0
+2616,serbia want annex northern greece,Insincere,Insincere,1,0,0,0
+873,yelp spring break,Sincere,Sincere,0,1,0,0
+3539,school justify failing teach child cursive holocaust,Insincere,Insincere,1,0,0,0
+861,skill learner need,Sincere,Sincere,0,1,0,0
+1098,application graduate student must,Sincere,Sincere,0,1,0,0
+2511,fake mythology created brahmin,Insincere,Insincere,1,0,0,0
+3326,normal sex cousin,Insincere,Insincere,1,0,0,0
+3974,feminist rude defensive many feminist post curt rude response statement argument questioned opposing argument ignored attacked,Insincere,Insincere,1,0,0,0
+1504,randomly jump,Sincere,Insincere,0,0,1,0
+2861,symbol flag color people lgbt people,Insincere,Insincere,1,0,0,0
+280,noun headache plural form,Sincere,Sincere,0,1,0,0
+2751,sc sts leave india,Insincere,Insincere,1,0,0,0
+563,top leading led bulb manufacturing company india,Sincere,Sincere,0,1,0,0
+727,new iiits get campus earliest,Sincere,Sincere,0,1,0,0
+1753,temperature store embros egg sperm,Sincere,Sincere,0,1,0,0
+1190,purpose computer program,Sincere,Sincere,0,1,0,0
+2382,come european south american culture considered passionate others,Insincere,Insincere,1,0,0,0
+204,difficult create successful business russia,Sincere,Sincere,0,1,0,0
+2488,respect military member extend soldier right color white many white u conservative man anomaly,Insincere,Insincere,1,0,0,0
+882,convert decimal binary using modulus function,Sincere,Sincere,0,1,0,0
+2964,cr cr,Insincere,Insincere,1,0,0,0
+3926,theory white people becoming minority going extinct pure bullcrap,Insincere,Insincere,1,0,0,0
+2521,muslim community india closed society obstinately refusing reform modern time major religion done still holding jihad kafir forced removal clitoris multiple marriage,Insincere,Insincere,1,0,0,0
+62,traveling maldives india via colombo sri lanka hour colombo visit colombo need visa,Sincere,Sincere,0,1,0,0
+3720,liberal support sexist segregated bathroom,Insincere,Insincere,1,0,0,0
+3789,singaporean feel threatened living close many muslim majority nation,Insincere,Insincere,1,0,0,0
+307,favorite novel non fiction book,Sincere,Sincere,0,1,0,0
+3362,astrological combination needed obtain scholarship study,Insincere,Sincere,0,0,0,1
+1342,former pornstar quora,Sincere,Insincere,0,0,1,0
+2287,indian greedy people money,Insincere,Insincere,1,0,0,0
+2438,many american unquestioningly believe see mainstream medium news owned controlled major company course central intelligence agency,Insincere,Insincere,1,0,0,0
+1130,best entertaining foreign movie watch,Sincere,Sincere,0,1,0,0
+1448,invest get maximum revenue crore rupee,Sincere,Sincere,0,1,0,0
+989,ex nda always behave nice lady also part training syllabus,Sincere,Insincere,0,0,1,0
+91,proposed lateral entry indian foreign service undermine prestige position directly recruited officer,Sincere,Sincere,0,1,0,0
+3258,fast food restaurant like mcdonald wendy krystal checker hire mostly black dairy queen mostly indian chick fil mostly white type discrimination,Insincere,Insincere,1,0,0,0
+1320,get erection looking woman asexual,Sincere,Insincere,0,0,1,0
+2815,longest bullet,Insincere,Sincere,0,0,0,1
+771,first year syrian civil war developed analysis chronology wikipedia,Sincere,Sincere,0,1,0,0
+29,social medium site use indie author,Sincere,Sincere,0,1,0,0
+1845,take become activision ambassador,Sincere,Sincere,0,1,0,0
+3567,chinese woman mondial bus,Insincere,Insincere,1,0,0,0
+3613,democrat still pushing collusion russian story result clinton arrest,Insincere,Insincere,1,0,0,0
+3432,ever killed wife cheated,Insincere,Insincere,1,0,0,0
+1217,moody daymond john,Sincere,Insincere,0,0,1,0
+2204,people mostly girl like getting tippy toe,Insincere,Insincere,1,0,0,0
+3970,narendra modi fooling india gst demonitization protest modi destroying india revealed sir vinod dua thewire episode,Insincere,Insincere,1,0,0,0
+3807,nasa confirms nibiru exists article say true nibiru also end earth true happen,Insincere,Insincere,1,0,0,0
+177,maruti going relaunch design,Sincere,Sincere,0,1,0,0
+1079,eould nice pen buy phd advisor grduation worth usd,Sincere,Sincere,0,1,0,0
+2911,germany,Insincere,Insincere,1,0,0,0
+2400,tamil ever accept equal ethnicity even though evidence state tamil oldest civilization recorded invention world denial,Insincere,Insincere,1,0,0,0
+1472,encourage dad keep exercising got stroked spends lot time resting bed want walk try walk say foot weakening convince keep walking,Sincere,Insincere,0,0,1,0
+661,apply health insurance today next day find disease need treatment insurance cover cost,Sincere,Sincere,0,1,0,0
+2016,chinese indonesian generally look west papuan,Insincere,Insincere,1,0,0,0
+405,graduation course graduation certificate course canada,Sincere,Sincere,0,1,0,0
+2040,muslim feel humiliated learn prophet mohammad married woman young year old aisha converted others worship place islamic holy place called kaaba killed people name allah,Insincere,Insincere,1,0,0,0
+2229,cold hearted mcann sold maddie pedophile,Insincere,Insincere,1,0,0,0
+3623,indian protect motherland,Insincere,Insincere,1,0,0,0
+1846,line song end say father want kill mother want f k actually morrison want say line,Sincere,Insincere,0,0,1,0
+2007,tamil discriminated sri lanka go live tamil nadu,Insincere,Insincere,1,0,0,0
+1061,biggest trend going social medium advertising,Sincere,Sincere,0,1,0,0
+2118,neither barreto cordova apologized outrageous hate based social medium rant apologized rant may offended admission maintain belief republican congress tolerate,Insincere,Insincere,1,0,0,0
+442,realize husband love althogh trying time make happiest man,Sincere,Insincere,0,0,1,0
+2515,long somebody attempt assassinate donut trump,Insincere,Insincere,1,0,0,0
+651,alternate history book movie finland,Sincere,Sincere,0,1,0,0
+1982,go pharmacovigilence b pharmacy,Sincere,Sincere,0,1,0,0
+2840,everyone greece replaced million hard working productive law abiding german scandinavian american citizen long take exit crisis,Insincere,Insincere,1,0,0,0
+2461,currently perverted depraved head state,Insincere,Insincere,1,0,0,0
+749,get match tinder,Sincere,Insincere,0,0,1,0
+2404,interesting many american men tired american woman thus pursuing foreign woman,Insincere,Insincere,1,0,0,0
+3191,dog fuck woman,Insincere,Insincere,1,0,0,0
+3601,people support lgbqt racial equality show prejudice muslim,Insincere,Insincere,1,0,0,0
+984,futurama crew mean christmas elf,Sincere,Sincere,0,1,0,0
+288,meaning bibliognost,Sincere,Sincere,0,1,0,0
+3249,name woman athlete participating olympics,Insincere,Insincere,1,0,0,0
+122,anti missile system thaads,Sincere,Sincere,0,1,0,0
+74,argentina fight new world order falklands war,Sincere,Insincere,0,0,1,0
+953,best nlp trainer pune,Sincere,Sincere,0,1,0,0
+1067,type material want read product design engineering blog,Sincere,Sincere,0,1,0,0
+1052,determine greater value,Sincere,Sincere,0,1,0,0
+437,use studying mba studying information technology,Sincere,Sincere,0,1,0,0
+2164,whola ugly state,Insincere,Insincere,1,0,0,0
+2422,evolution real gay lesbian ask penis vagina,Insincere,Insincere,1,0,0,0
+1446,hardly feel emotion,Sincere,Insincere,0,0,1,0
+403,advantage plastic pond,Sincere,Sincere,0,1,0,0
+1124,manufactured romanian red wine good,Sincere,Sincere,0,1,0,0
+3008,win race mumbai delhi,Insincere,Sincere,0,0,0,1
+380,difference mpcb overload relay,Sincere,Sincere,0,1,0,0
+707,speed sound electricity,Sincere,Sincere,0,1,0,0
+1055,tattoo soubin arm hidden movie sudani nigeria,Sincere,Sincere,0,1,0,0
+1656,australia abolish monarchy,Sincere,Insincere,0,0,1,0
+3678,black men like getting married white woman pregnant,Insincere,Insincere,1,0,0,0
+2627,ungrateful girl father complaining father give freedom brother saying machismo machismo woman get pregnant suffer rape likely suffer assault shit,Insincere,Insincere,1,0,0,0
+2246,men india except punjab haryana rajasthan feminine passive,Insincere,Insincere,1,0,0,0
+2675,terrorist group worst among isi al qaeda turkish army hizbollah palestinian army,Insincere,Insincere,1,0,0,0
+3649,zuckerberg muslim,Insincere,Insincere,1,0,0,0
+270,advice someone planning apply swe internship prior related experience,Sincere,Sincere,0,1,0,0
+3796,tamil people burning csk flag tamil people hate csk much,Insincere,Insincere,1,0,0,0
+2427,homosexual men relish sex female many marry female child desert go homosexual relationship,Insincere,Insincere,1,0,0,0
+110,way getting rid moth,Sincere,Sincere,0,1,0,0
+1404,know nichola tesla,Sincere,Sincere,0,1,0,0
+2961,important american slave,Insincere,Insincere,1,0,0,0
+1863,online free course leed,Sincere,Sincere,0,1,0,0
+1714,source identify share bought sale fiis,Sincere,Sincere,0,1,0,0
+3111,american deny defeat vietnam war,Insincere,Insincere,1,0,0,0
+3302,gun stop mass shooting easily accessible bomb stop bombing attack,Insincere,Insincere,1,0,0,0
+422,meanest thing spouse ever said,Sincere,Sincere,0,1,0,0
+1562,happens eat lemon everyday,Sincere,Sincere,0,1,0,0
+387,sweeten cacao dark chocolate,Sincere,Insincere,0,0,1,0
+2139,long u supreme court wrongly assert sex marriage protected constitution,Insincere,Insincere,1,0,0,0
+898,download receipt lic premium paid offline,Sincere,Sincere,0,1,0,0
+2530,trump still funding planned parenthood need fire mueller rosenstein session,Insincere,Insincere,1,0,0,0
+3510,year old girl married year old man okay,Insincere,Insincere,1,0,0,0
+3158,become le enlightened enjoy simple thing life ignorant average joes,Insincere,Insincere,1,0,0,0
+874,difference chalazion stye,Sincere,Sincere,0,1,0,0
+3086,india proud ownself fcuked india count nation country u,Insincere,Insincere,1,0,0,0
+1694,wrong code c pset initial c,Sincere,Sincere,0,1,0,0
+518,universally frowning upon applicant admit want job need money fast interviewer think getting company besides skilled liar,Sincere,Sincere,0,1,0,0
+3795,progressive get much people money handout federal government spend full time putting poorly constructed comment quora god bless section eight,Insincere,Insincere,1,0,0,0
+2377,let get straight obama hillary give billion iran oked russia taking u nuclear material husband make deal million gift clinton foundation dnc medium accuse trump collusion,Insincere,Insincere,1,0,0,0
+1954,naseem hijazi biased spaniard british brahmin glorified afghan mahmud ghaznavi arab muhammad bin qasim,Sincere,Insincere,0,0,1,0
+967,draken international private adversary air contractor still provide aggressor aircraft usaf training,Sincere,Sincere,0,1,0,0
+2044,mccain lose presidency pander deplorable like trump birthers birthers come church teach nowadays,Insincere,Insincere,1,0,0,0
+2481,trump supporter ever admit played like fool given trump actually said could kill someone supporter still vote,Insincere,Insincere,1,0,0,0
+3911,muslim good muslim,Insincere,Insincere,1,0,0,0
+440,absinthe produced,Sincere,Sincere,0,1,0,0
+3463,american hated people earth,Insincere,Insincere,1,0,0,0
+67,scientologists still cry totally cleared,Sincere,Insincere,0,0,1,0
+2902,white people generally desired dating world people color,Insincere,Insincere,1,0,0,0
+2739,illegal bangladeshi immigrant ask government impose sharia law assam,Insincere,Insincere,1,0,0,0
+925,multi variable maclaurin series expansion f x,Sincere,Sincere,0,1,0,0
+963,good trick prepare net mathematics,Sincere,Sincere,0,1,0,0
+3889,south asian parent treat kid property,Insincere,Sincere,0,0,0,1
+825,prepare neet study month along b sc course study hour daily,Sincere,Sincere,0,1,0,0
+2578,eat get bigger totally dissappear,Insincere,Insincere,1,0,0,0
+558,sex better health,Sincere,Sincere,0,1,0,0
+3617,quora almost exclusively question posed frightened child young teen minimal education getting lot lately feed bad luck draw really thing,Insincere,Insincere,1,0,0,0
+858,view collapsed answer forbidden fruit always take peek taboo avoid cost,Sincere,Insincere,0,0,1,0
+2621,men marry india,Insincere,Insincere,1,0,0,0
+1664,spicejet interview hack,Sincere,Sincere,0,1,0,0
+3584,put fascism nazism right totalitarian modeled soviet style socialism,Insincere,Insincere,1,0,0,0
+84,family able take french bulldog puppy way flight k los angeles,Sincere,Sincere,0,1,0,0
+1051,top jiu jitsu competitor,Sincere,Sincere,0,1,0,0
+2333,democrat woman like pretend melania trump inspiring,Insincere,Insincere,1,0,0,0
+230,military police occupational specialty training course marine,Sincere,Sincere,0,1,0,0
+1294,ruling party interesting history,Sincere,Insincere,0,0,1,0
+1040,prabhas get national award work baahubali,Sincere,Sincere,0,1,0,0
+101,fuel economy tesla model,Sincere,Sincere,0,1,0,0
+3392,become okay accuse soros jew nazi jew killer roseanne barr making slur receive attention made racist tweet valerie jarrett,Insincere,Insincere,1,0,0,0
+1634,gai calculated wisc v,Sincere,Sincere,0,1,0,0
+863,agree increased dependence algorithm rather good old fashioned human intelligence made world boring typecast divided place,Sincere,Sincere,0,1,0,0
+3497,liberal get angry people mention charity,Insincere,Insincere,1,0,0,0
+1778,people compromised working memory better breadth first search depth first search,Sincere,Sincere,0,1,0,0
+2257,white pple leave racism alone,Insincere,Insincere,1,0,0,0
+37,fiitjee south delhi class,Sincere,Sincere,0,1,0,0
+2825,many antisemitic troll jewish quorans identified,Insincere,Insincere,1,0,0,0
+1577,scope ca small town,Sincere,Sincere,0,1,0,0
+3361,refugee appreciate host country europe accepting instead commit crime sexually assault native,Insincere,Insincere,1,0,0,0
+2143,possible u whole mighty army fake u good bombing small country weapon fight back u,Insincere,Insincere,1,0,0,0
+1745,cancer type virus,Sincere,Sincere,0,1,0,0
+2057,black woman bald,Insincere,Insincere,1,0,0,0
+3544,think black people area u dangerous,Insincere,Insincere,1,0,0,0
+3365,feminist complain men earning woman men replaced ai next year,Insincere,Insincere,1,0,0,0
+2753,popular people quora showoff nothing real life,Insincere,Insincere,1,0,0,0
+3675,xi jinping look stupid,Insincere,Insincere,1,0,0,0
+2691,american name child white mean girl name like jessica brittney ashley jennifer,Insincere,Insincere,1,0,0,0
+1343,craziest true podcasts,Sincere,Insincere,0,0,1,0
+2890,israeli president shimon peres advise ukraine forget holodomor,Insincere,Insincere,1,0,0,0
+3972,vietnamese want army kill mountain tribe people become homogenous,Insincere,Insincere,1,0,0,0
+1838,make youtube nigerian,Sincere,Insincere,0,0,1,0
+892,international trade commerce look like absent necessity factoring usa,Sincere,Sincere,0,1,0,0
+1587,get loan england,Sincere,Sincere,0,1,0,0
+3214,equal protection law false blm exists mean could beat terrorist coming country stan,Insincere,Insincere,1,0,0,0
+411,fruit like make love romantic intimate special experience someone truly love instead meaningless casual sex skag view object instead human,Sincere,Sincere,0,1,0,0
+1616,earn around lpa rental much tax get deducted income good investment tip great,Sincere,Sincere,0,1,0,0
+2110,paying steel maintain iron curtain particularly east germany west germany,Insincere,Insincere,1,0,0,0
+1203,american civil war fought,Sincere,Insincere,0,0,1,0
+2150,hindi language poor india,Insincere,Insincere,1,0,0,0
+526,badminton shoe heavy,Sincere,Sincere,0,1,0,0
+3276,greece guy cocky,Insincere,Insincere,1,0,0,0
+3971,slut love suck cuck donut,Insincere,Insincere,1,0,0,0
+299,exam qualify order get admission iucaa inter university centre astronomy astrophysics course offer,Sincere,Sincere,0,1,0,0
+756,skipped entire design process mobile application prototype go back add missing step presentable portfolio,Sincere,Sincere,0,1,0,0
+1075,gandalf mean say blood westernesse run nearly pure denethor faramir boromir possible,Sincere,Sincere,0,1,0,0
+1099,done gas come large amount lpg gas,Sincere,Sincere,0,1,0,0
+1622,centipede harmful human being,Sincere,Insincere,0,0,1,0
+1119,something psychological field th comm student law dropout,Sincere,Sincere,0,1,0,0
+793,best laptop entrepreneur,Sincere,Sincere,0,1,0,0
+740,scored jee main without coaching decided take drop aim cse iit able achieve,Sincere,Sincere,0,1,0,0
+3673,hillary clinton action le serious general david petraeus,Insincere,Insincere,1,0,0,0
+2963,mormon church really withdrawing scout girl allowed public reason cost allowing girl actually learn like outside church seems like likely reason,Insincere,Insincere,1,0,0,0
+1022,happen lack iodine,Sincere,Sincere,0,1,0,0
+3899,american feel strongly carrying gun nd amendment important people,Insincere,Insincere,1,0,0,0
+1975,way rome influence america military,Sincere,Sincere,0,1,0,0
+705,korean food popular america,Sincere,Sincere,0,1,0,0
+3390,atheist bad troll religious people quora,Insincere,Insincere,1,0,0,0
+1168,among following critical skill good listener,Sincere,Sincere,0,1,0,0
+3955,stephen hawking still paralyzed hell move feel pain everlasting torment flame wheelchair fire retardant similar mental status,Insincere,Insincere,1,0,0,0
+1195,wrong president trump ask doj investigate weather fbi infiltrated trump campaign,Sincere,Insincere,0,0,1,0
+1896,word person tolerate happiness others,Sincere,Sincere,0,1,0,0
+541,get rid bruise cheekbone bruise eye,Sincere,Insincere,0,0,1,0
+2421,girl iceland beautiful girl european country inquisition affect country past,Insincere,Insincere,1,0,0,0
+547,iam student india need help finding university india admit student indian based sat subject test score,Sincere,Sincere,0,1,0,0
+2648,fuck get quora account never signed also delete put password never created,Insincere,Sincere,0,0,0,1
+456,tesla car going best selling car future,Sincere,Sincere,0,1,0,0
+905,general certificate secondary education grade need get admission king college especially math english,Sincere,Sincere,0,1,0,0
+3592,religious tolerance,Insincere,Insincere,1,0,0,0
+2096,devil hell like come talk love little sinner,Insincere,Insincere,1,0,0,0
+1977,turning point book th kingdom kristine kathryn rusch,Sincere,Sincere,0,1,0,0
+2798,democrat hate america much least appear,Insincere,Insincere,1,0,0,0
+3109,rather date hot chick physically handicapped ugly chick,Insincere,Insincere,1,0,0,0
+1245,like working intelligence agency,Sincere,Sincere,0,1,0,0
+3946,atheism social idiocy,Insincere,Sincere,0,0,0,1
+1674,many french word english launguage,Sincere,Sincere,0,1,0,0
+2974,middle eastern people actually fornicate goat,Insincere,Insincere,1,0,0,0
+1441,going social event tell confident mix around always end sitting corner silently feeling stuck,Sincere,Insincere,0,0,1,0
+2998,bengali get offended south indains regard north indian,Insincere,Insincere,1,0,0,0
+3647,modi play magic data changing industrial growth rate,Insincere,Sincere,0,0,0,1
+1948,progynon,Sincere,Insincere,0,0,1,0
+2162,conservative lawmaker cohort finally realize trump dumpster fire president well lying vindictive shallow con artist seemingly sense decency mental fortitude,Insincere,Insincere,1,0,0,0
+1940,much anorexic eat,Sincere,Insincere,0,0,1,0
+2720,many father narendra modi,Insincere,Insincere,1,0,0,0
+1752,something good,Sincere,Sincere,0,1,0,0
+3548,gay christian agenda,Insincere,Insincere,1,0,0,0
+1721,circumcised adult experience like,Sincere,Insincere,0,0,1,0
+1623,list reason cause people evil thing,Sincere,Insincere,0,0,1,0
+2886,former president obama ordered drone strike killed innocent civilian might called sin therefore reasonable call obama sin laden,Insincere,Insincere,1,0,0,0
+596,agent deposition shape landscape,Sincere,Insincere,0,0,1,0
+1620,archaeology respected much,Sincere,Sincere,0,1,0,0
+2514,jaya bachchan angry arrogant rude megastar amitabh bachchan earth,Insincere,Insincere,1,0,0,0
+3747,people realize conservative disadvantaged minority group quora quora going implement affirmative action,Insincere,Insincere,1,0,0,0
+164,institute provides big data hadoop training delhi,Sincere,Sincere,0,1,0,0
+2865,hillary clinton really write answer quora banned violating fake name policy,Insincere,Insincere,1,0,0,0
+2379,dark side make people look like shrivelled ballsack,Insincere,Insincere,1,0,0,0
+2177,put trump hater small island quickly turn,Insincere,Insincere,1,0,0,0
+2014,acceptable normal white guy date latinas asian black girl,Insincere,Insincere,1,0,0,0
+491,win game chess trump kim jung un,Sincere,Insincere,0,0,1,0
+145,anyone elaborate mercury engine working principle,Sincere,Sincere,0,1,0,0
+1024,home based work option,Sincere,Insincere,0,0,1,0
+2079,minority act like non minority owe something time,Insincere,Insincere,1,0,0,0
+3009,christian insatiable desire convert conservative jew important ungodly act,Insincere,Insincere,1,0,0,0
+1554,move best friend ex,Sincere,Sincere,0,1,0,0
+706,study edc ae ese,Sincere,Sincere,0,1,0,0
+3643,strange want mental illness everyone else,Insincere,Insincere,1,0,0,0
+73,thing proud,Sincere,Sincere,0,1,0,0
+2265,queen invite violent criminal hang palace,Insincere,Insincere,1,0,0,0
+3937,people especially bhakts troll kejriwal even though successful keeping electricity water bill low,Insincere,Insincere,1,0,0,0
+2558,tl dr designation incredibly rude lazy pretentious onus put writer instead reader,Insincere,Insincere,1,0,0,0
+733,scope india architecture,Sincere,Sincere,0,1,0,0
+1733,top strangest death,Sincere,Sincere,0,1,0,0
+1878,sherlock reply sheldon,Sincere,Insincere,0,0,1,0
+824,feature preferred buying office furniture,Sincere,Sincere,0,1,0,0
+487,important chapter english literature icse,Sincere,Sincere,0,1,0,0
+2921,kashmiri fight islamic dominance freedom kashmir clear line drawn kashmiri need choose side,Insincere,Insincere,1,0,0,0
+3934,hiv good,Insincere,Sincere,0,0,0,1
+1744,missing period pregnant case consult doctor able get virgin,Sincere,Sincere,0,1,0,0
+1232,nanobots possible near future medical use,Sincere,Sincere,0,1,0,0
+675,name use username,Sincere,Sincere,0,1,0,0
+3501,since still demonstratively powerful imperial german navy seek challenge royal navy stalemate jutland,Insincere,Insincere,1,0,0,0
+1314,english term mean,Sincere,Sincere,0,1,0,0
+1243,big eazy e,Sincere,Insincere,0,0,1,0
+1438,good height year old,Sincere,Sincere,0,1,0,0
+1629,love girl,Sincere,Insincere,0,0,1,0
+1953,instead blocking serotonin reuptake serotonin pill used,Sincere,Sincere,0,1,0,0
+1946,way experience endorphin rush high without eating super hot capsaicin extract running marathon,Sincere,Sincere,0,1,0,0
+1499,library like goa,Sincere,Sincere,0,1,0,0
+1310,suitable time table upsc capf year,Sincere,Sincere,0,1,0,0
+2857,smelly brown indian deserve live,Insincere,Insincere,1,0,0,0
+2477,hindu extremist group rise india,Insincere,Insincere,1,0,0,0
+313,experienced hair loss anti hiv medication,Sincere,Sincere,0,1,0,0
+2996,russia jamming tomahawk missile cause many reach target,Insincere,Sincere,0,0,0,1
+1089,good activity help build team work skill required astronaut,Sincere,Sincere,0,1,0,0
+2249,problem pakistani people,Insincere,Insincere,1,0,0,0
+281,many course hacking,Sincere,Sincere,0,1,0,0
+1801,place small business owner get equity funding,Sincere,Sincere,0,1,0,0

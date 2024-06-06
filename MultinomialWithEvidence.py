@@ -3,9 +3,9 @@ import numpy as np
 class MultinomialNB:
     def __init__(self, alpha=1):
         self.alpha = alpha
-        self.class_counts = {}
-        self.total_feature_counts = {}
-        self.total_each_word_per_class = {}
+        self.class_counts = {} # probabilitas kelas
+        self.total_feature_counts = {} # total seluruh fitur yg ada per kelas
+        self.total_each_word_per_class = {} # total berapa kali kata t umuncul di tiap kelas
         self.priors = {}
         self.likelihood = {}
         self.posteriors = []
@@ -31,6 +31,7 @@ class MultinomialNB:
                     self.total_feature_counts[label] = np.sum(tfidf_val)
 
         total_each_word_per_class = np.zeros((len(classes), X_train_tfidf.shape[1]))
+        
         # compute sum each word each class
         for label in classes:
             tfidf_per_class = np.where(y_train == label)

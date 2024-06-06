@@ -15,7 +15,7 @@ class TFIDF:
                     vocabulary.append(term)
         return vocabulary
     
-    def create_term_count(self, question):
+    def create_term_count(self, question): # hasilnya vocab dan freq dalam 1 kalimat
         term_counts = {}
         for term in question.split():
             if term not in term_counts:
@@ -24,7 +24,7 @@ class TFIDF:
                 term_counts[term] += 1
         return term_counts
     
-    def count_tf(self, question):
+    def count_tf(self, question): # hasilnya per kalimat
         question_len = len(question.split())
         tf = self.create_term_count(question)
 
@@ -32,7 +32,7 @@ class TFIDF:
             tf[vocab] /= question_len
         return tf
     
-    def count_document_freq(self):
+    def count_document_freq(self): # hasilnya sesuai panjang vocab
         document_frequency = {}
         for vocab in self.vocabulary:
             document_frequency[vocab] = 0
@@ -43,7 +43,7 @@ class TFIDF:
                         break
         return document_frequency
     
-    def count_idf(self):
+    def count_idf(self): # hasilnya sesuai panjang vocab
         idf = self.count_document_freq()
         total_dataset = len(self.dataset)
 
@@ -75,6 +75,7 @@ if __name__ == "__main__":
     questions = ['xi jinping took year kind dirty method kill enemy make dictator china', 'could israeli people ignore kill starve mile away', 'do create mobile app without write code', 'delete quora account use email address create another one']
     tfidf = TFIDF(questions)
     print(tfidf.transform_tfidf(['xi jinping took year kind dirty method kill enemy make dictator china', 'could israeli people ignore kill starve mile away', 'do create mobile app without write code', 'delete quora account use email address create another one']))
+    print(tfidf.create_term_count())
     # print(tfidf.idf)
     #'could israeli people ignore kill starve mile away'
     # idf = tfidf.document_freq

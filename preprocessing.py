@@ -43,6 +43,24 @@ def stopword_remove(question_text):
     question_text = [word for word in question_text if word not in stop_words]
     return question_text
 
+from Abbrevations import abbreviations, convert_abbrev
+def get_abbrev(question_text):
+    tokens = [word for word in question_text if word in abbreviations.keys()]
+    return tokens
+
+def convert_abbrev_in_text(question_text):
+    # tokens = [convert_abbrev(word) for word in question_text]
+    # return tokens
+    result = []
+    for word in question_text:
+        new_word = convert_abbrev(word)
+        if len(new_word) > 1:
+            for each_word in new_word.split():
+                result.append(each_word)
+        else:
+            result.append(new_word)
+    return result
+
 # Combine all preprocessing
 def preprocessing_text_with_stemming(question_text):
     question_text = case_folding(question_text)
@@ -56,6 +74,14 @@ def preprocessing_text_with_lemma(question_text):
     question_text = case_folding(question_text)
     question_text = cleansing(question_text)
     question_text = tokenizing(question_text)
+    question_text = convert_abbrev_in_text(question_text)
     question_text = stopword_remove(question_text)
     question_text = lemmatizing(question_text)
     return question_text
+
+
+# if __name__ == "__main__":
+#     from TFIDFVectorizer import TFIDF
+#     questions = '@yakubOObs think he deactivated because his notifications are aids after tesco wrecked him lol'
+#     print(preprocessing_text_with_lemma(questions))
+ 

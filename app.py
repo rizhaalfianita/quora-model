@@ -28,6 +28,7 @@ def predict(text):
     transformed_input = tfidf.transform_single_tfidf(' '.join(preprocessed_text))
     predicted_class = mnb.predict_per_sentence(transformed_input)
     label = "Sincere" if predicted_class == 0 else "Insincere"
+    print(tfidf.tem)
 
     tfidf_per_word = getTFIDF(tfidf.vocabulary, transformed_input, preprocessed_text)
     likelihood_per_word_0 = getLikelihood(tfidf.vocabulary, mnb.likelihood, preprocessed_text, 0)
