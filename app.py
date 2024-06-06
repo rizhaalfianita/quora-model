@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 import pickle
 import pandas as pd
-from preprocessing import preprocessing_text_with_stemming
+from preprocessing import preprocessing_text_with_lemma
 from flask_cors import CORS
 
 app = Flask(__name__)
@@ -24,7 +24,7 @@ def predict(text):
     mnb = pickle.load(w)
     w.close()
 
-    preprocessed_text = preprocessing_text_with_stemming(text)
+    preprocessed_text = preprocessing_text_with_lemma(text)
     transformed_input = tfidf.transform_single_tfidf(' '.join(preprocessed_text))
     predicted_class = mnb.predict_per_sentence(transformed_input)
     label = "Sincere" if predicted_class == 0 else "Insincere"
